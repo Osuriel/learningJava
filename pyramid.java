@@ -3,7 +3,7 @@ import java.io.Console;
 class Pyramid {
   public static void main(String [] args){
     Console console = System.console();
-    String userInput = console.readLine("Please how tall you want the pyramid: ");
+    String userInput = console.readLine("Please enter how tall you want the pyramid: ");
     int userNumber = Integer.parseInt(userInput);
     int x = 1;
     int y = 1;
